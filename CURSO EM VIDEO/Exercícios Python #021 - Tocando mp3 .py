@@ -1,8 +1,8 @@
-# Desafio 020 - Sorteando uma ordem na lista
-from random import sample
-n1 = (input('Primeiro aluno:  '))
-n2 = (input('Segundo  aluno: '))
-n3 = (input('Terceiro aluno:  '))
-n4 = (input('Quarto aluno: '))
-sorteio = sample([n1, n2, n3, n4],k=4)
-print('A ordem das apresentações é: \n{}'.format(sorteio))
+# Faça um programa em Python que abra e reproduza o áudio de um
+# arquivo MP3.
+import pygame
+pygame.init()
+pygame.mixer.music.load('Coldplay.mp3')
+pygame.mixer.music.play()
+pygame.event.walt()
+
