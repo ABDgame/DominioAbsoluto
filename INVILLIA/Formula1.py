@@ -7,7 +7,6 @@ while True:
     QuantidadeAbastecimentos  = float (input('Quantas vezes será reabastecido? '))
     Consumo  = float (input('	Qual o consumo de combustivel (km/L)?'))
     VoltasPrimeiraParada = Voltas / QuantidadeAbastecimentos
-    PrimeiroReabastecimento = VoltasPrimeiraParada * (pista/1000) * Consumo
+    PrimeiroReabastecimento = VoltasPrimeiraParada * (Pista/1000) * Consumo
     print('Total de combustivel ate o 1º reabastecimento', PrimeiroReabastecimento ,'Litros')
-    
     
