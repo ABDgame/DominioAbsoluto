@@ -9,4 +9,12 @@ while True:
     VoltasPrimeiraParada = Voltas / QuantidadeAbastecimentos
     PrimeiroReabastecimento = VoltasPrimeiraParada * (Pista/1000) * Consumo
     print('Total de combustivel ate o 1º reabastecimento', PrimeiroReabastecimento ,'Litros')
+    sair = ' '
+    while sair not in 'SN':
+        sair = str(input('Calcular Outro Reabastecimento ? [S/N] ')).strip().upper()[0]
+    if sair == 'N':
+        break
+print('::'*20)
+print('          Pausa Para O Café!!!    ')
+print('::'*20)
     
