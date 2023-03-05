@@ -1,58 +1,267 @@
-<!DOCTYPE html> 
-<html lang= "pt-br"> 
-<head> 
-  <meta charset="UTF-8"> 
-  <meta http-equiv="X-UA-Compatible" contente="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
-  <meta name="title" content="Dominio Absoluto">
-  <meta name="description" content="Site de uma automotiva desenvolvido por MQJogos">
-  <link rel="shortcut icon" href="./src/imagens/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="./src/css/style.css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet"> 
-  <title> Domínio Absoluto </title>
+<!-- Comentarios -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="viemport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Dominio Absoluto</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
- <header class="header" data-header>
-  <div class="container">
-
-    <h1>
-      <a href="#" class="logo">DominioAbsoluto<span class="span">.</span></a>
-    </h1>
-
-    <nav class="navbar" data-navbar>
-      <ul class="navbar-list">
-
-        <li class="nav-item">
-          <a href="#inicio" class="navbar-link" data-nav-link>Inicio</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="#aDominio" class="navbar-link" data-nav-link>A Domínio Absoluto</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="#nossoCardapio" class="navbar-link" data-nav-link>Nossos Carros</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="#faleConosco" class="navbar-link" data-nav-link>Contato</a>
-        </li>
-
-      </ul>
-    </nav>
-    <div class="footer-bottom">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <p class="copyright-text">
-          &copy; 2023 <a href="#" class="copyright-link">Desenvolvido por</a> MQJogos.
-        </p>
+      <a class="navbar-brand" href="#">Domínio Absoluto</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">INÍCIO <span 
+            class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dominio">SOBRE NÓS
+            </a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#vender">VENDER
+            </a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#comprar">COMPRAR
+            </a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#servicos">OUTROS SERVIÇOS
+            </a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#contatos">CONTATOS
+            </a>
+         </li>
+        </ul>
       </div>
-    </div>    
-    <script src="./src/js/script.js"></script>   
-  </body> 
-  </html>
+    </div>
+    </nav>
+  </header>
+    <div class="jumbotron jumbotron-fluid height100p banner" id="inicio">
+    <div class="container h100">
+      <div class="contentBox h100">
+        <div>
+        <h1 data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="0">Bem-Vindo(a)</h1>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+   </div>
+    </div>
+  </div>
+  <section class="sec1" id="dominio">
+    <div class="container">
+      <div class="row">
+        <div class="offset-sm-2 col-sm-8">
+          <div class="headerText text-center">
+            <h2 data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">O Domínio Absoluto</h2>
+            <p data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-sm-4">
+      <div class="placeBox" class="placeBox" data-aos="fade-up" data-aos-duration="0" data-aos-delay="0">
+      <div class="imgBx">
+        <img src="img/001.jpg" class="img-fluid">
+      </div>
+      <div class="content">
+        <h3>Place Name<br></h3>
+      </div>
+
+      
+    </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="placeBox" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="500">
+      <div class="imgBx" >
+        <img src="img/002.jpg" class="img-fluid">
+      </div>
+      <div class="content">
+        <h3>Place Name<br></h3>
+      </div>
+
+      
+    </div>
+  </div>
+  <div class="col-sm-4">
+  <div class="placeBox" data-aos="fade-up" data-aos-duration="1000"
+   data-aos-delay="1000">
+      <div class="imgBx">
+        <img src="img/003.jpg" class="img-fluid">
+      </div>
+      <div class="content">
+        <h3>Place Name<br></h3>
+              </div>  
+            </div>
+          </div>
+        </div>
+     </div>
+     </section>
+     <section class="sec2" id="vender">
+       <div class="container h100">
+        <div class="contentBox h100">
+          <div>
+           <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Nossos Serviços</h1>
+           <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+           <a href="#" class="btn btnD1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Veja Mais</a>
+         </div>
+       </div>
+     </div>
+     </section>
+     <section class="servicos" id="servicos">
+       <div class="container">
+         <div class="row">
+           <div class="offset-sm-2 col-sm-8">
+            <div class="headerText text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Marcas</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="servico" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                <div class="imgBx">
+                  <img src="img/2013-honda-cr-v-front-three-quarters-view.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Honda</h1>
+                  <a href="#" class="btn btnD2">Veja
+                  Mais</a>
+                  <div class="clearfix"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="servico" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="imgBx">
+                  <img src="img/Nissan.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Nissan</h1>
+                  <a href="#" class="btn btnD2">Veja
+                  Mais</a>
+                  <div class="clearfix"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="servico" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                <div class="imgBx">
+                  <img src="img/2014-Toyota-Tundra-3.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Toyota</h1>
+                  <a href="#" class="btn btnD2">Veja
+                  Mais</a>
+                  <div class="clearfix"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="servico" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="imgBx">
+                  <img src="img/Mitsubichi.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Mitsubichi</h1>
+                  <a href="#" class="btn btnD2">Saiba
+                  Mais</a>
+                  <div class="clearfix"></div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="contatos" id="contatos">
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="headerText text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Fale Conosco</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row clearfix">
+          <div class="offset-sm-2 col-sm-8">
+            <form data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+               <div class="form-group">
+                <label>Nome</label>
+                <input type="text" name="" class="form-control">
+               </div>
+               <div class="form-group">
+                <label>Email</label>
+                <input type="text" name="" class="form-control">
+               </div>
+               <div class="form-group">
+                <label>Celular</label>
+                <input type="text" name="" class="form-control">
+               </div>
+               <div class="form-group">
+                <label>Mensagem</label>
+                <textarea class="form-control textarea" name=""></textarea>
+               </div>
+               <div class="form-group text-center">
+                <button class="btn btnD1">Enviar</button>
+               </div>
+            </form>
+          </div>
+      </div>
+     </div>
+     </section>
+     <footer>
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class="sci">
+              <li><a href="#"><i class="fa
+               fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa
+               fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa
+               fa-pinterest"></i></a></li>
+              <li><a href="#"><i class="fa
+               fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa
+               fa-twitter"></i></a></li>
+             </li>
+            </ul>
+            <p class="cpryt">
+              <a href="#">© 2019 Ponto de Fuga Design
+            </p>
+          </div>
+          
+        </div>
+         
+       </div>
+     </footer>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+       AOS.init();
+      </script>
+  <script type="text/javascript">
+    $(document).scroll(function() {
+      $('.navbar').toggleClass('scrolled',$(this).
+        scrollTop() > $('.navbar').height());
+    });
+  </script>
+
+</body> 
+</html>   
